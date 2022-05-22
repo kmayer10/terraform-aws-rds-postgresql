@@ -1,8 +1,8 @@
 resource "aws_db_instance" "aws_db_instance" {
   engine = var.engine
   engine_version = var.engine_version
-  identifier = var.name
-  username = var.name
+  identifier = var.identifier
+  username = var.username
   password = var.password
   instance_class = var.instance_class
   storage_type = var.storage_type
