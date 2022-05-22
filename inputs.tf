@@ -1,5 +1,5 @@
 variable "identifier" {}
-variable "subnet_ids" {}
+variable "db_subnet_group_name" {}
 variable "engine" {}
 variable "engine_version" {}
 variable "instance_class" {}
